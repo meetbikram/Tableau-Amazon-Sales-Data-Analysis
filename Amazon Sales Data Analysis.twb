@@ -1,0 +1,2882 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Data (AmazonDataV4)' inline='true' name='federated.15lbl0y17ig17v11rflfp0jjcyvd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='AmazonDataV4' name='excel-direct.0e0opcl1p1q1ol13mvh6d1nnoi44'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/user/Desktop/Amazon Sales Data Analysis/AmazonDataV4.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0e0opcl1p1q1ol13mvh6d1nnoi44' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Customer ID' ordinal='0' />
+            <column datatype='string' name='Item Brand' ordinal='1' />
+            <column datatype='string' name='Item' ordinal='2' />
+            <column datatype='date' name='Delivery Date' ordinal='3' />
+            <column datatype='date' name='Promised Delivery Date' ordinal='4' />
+            <column datatype='real' name='List Price' ordinal='5' />
+            <column datatype='real' name='Sales Price' ordinal='6' />
+            <column datatype='real' name='Sales Amount' ordinal='7' />
+            <column datatype='real' name='Sales Amount Based on List Price' ordinal='8' />
+            <column datatype='real' name='Discount Amount' ordinal='9' />
+            <column datatype='real' name='Sales Cost Amount' ordinal='10' />
+            <column datatype='integer' name='Sales Quantity' ordinal='11' />
+            <column datatype='integer' name='Sales Rep ID' ordinal='12' />
+            <column datatype='string' name='City' ordinal='13' />
+            <column datatype='string' name='State' ordinal='14' />
+            <column datatype='string' name='Country' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0e0opcl1p1q1ol13mvh6d1nnoi44' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Customer ID' ordinal='0' />
+            <column datatype='string' name='Item Brand' ordinal='1' />
+            <column datatype='string' name='Item' ordinal='2' />
+            <column datatype='date' name='Delivery Date' ordinal='3' />
+            <column datatype='date' name='Promised Delivery Date' ordinal='4' />
+            <column datatype='real' name='List Price' ordinal='5' />
+            <column datatype='real' name='Sales Price' ordinal='6' />
+            <column datatype='real' name='Sales Amount' ordinal='7' />
+            <column datatype='real' name='Sales Amount Based on List Price' ordinal='8' />
+            <column datatype='real' name='Discount Amount' ordinal='9' />
+            <column datatype='real' name='Sales Cost Amount' ordinal='10' />
+            <column datatype='integer' name='Sales Quantity' ordinal='11' />
+            <column datatype='integer' name='Sales Rep ID' ordinal='12' />
+            <column datatype='string' name='City' ordinal='13' />
+            <column datatype='string' name='State' ordinal='14' />
+            <column datatype='string' name='Country' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:P10001:no:A1:P10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item Brand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Item Brand]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Item Brand</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Item]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Item</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delivery Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Delivery Date]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Delivery Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promised Delivery Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Promised Delivery Date]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Promised Delivery Date</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>List Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[List Price]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>List Price</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Price]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sales Price</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Amount]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sales Amount</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Amount Based on List Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Amount Based on List Price]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sales Amount Based on List Price</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discount Amount]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Discount Amount</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Cost Amount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales Cost Amount]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sales Cost Amount</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sales Quantity]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sales Quantity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Rep ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sales Rep ID]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Sales Rep ID</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Data_B8265454B494423FB644168A0D6E4445]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_B8265454B494423FB644168A0D6E4445]' role='measure' type='quantitative' />
+      <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+      <drill-paths>
+        <drill-path name='Country, State, City'>
+          <field>[Country]</field>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Item:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Atomic Mint Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BBB Best Strawberry Jam&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Best Choice Golden Raisins&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Better Canned Tomatos&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Big Time Frozen Mushroom Pizza&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Blue Label Fancy Canned Clams&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bravo Noodle Soup&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Choice Malted Milk Balls&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Colony Bagels&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Discover Manicotti&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ebony Lettuce&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ebony Tangerines&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Even Better String Cheese&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Fantastic Pumpernickel Bread&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Fast Low Fat BBQ Chips&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Golden Frozen Pepperoni Pizza&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Gorilla Chocolate Milk&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;High Top Asparagus&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;High Top Oranges&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Imagine Grape Popsicles&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Just Right Chicken Noodle Soup&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Landslide Hot Chocolate&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Moms Sliced Ham&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nationeel Fondue Mix&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Nationeel Sugar Cookies&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Red Spade Roasted Chicken&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Super Hot Chocolate&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tell Tale Fuji Apples&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tell Tale Summer Squash&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Urban Small Brown Eggs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;American Beef Bologna&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;BBB Best Decaf Coffee&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Best Choice Chocolate Chip Cookies&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Best Corn Puffs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Better Vegetable Soup&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Big Time Pancake Mix&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bravo Canned Tomatos&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Carlson Low Fat Sour Cream&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Club Jack Cheese&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Cutting Edge Low Fat Cole Slaw&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ebony Fancy Plums&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ebony Potatos&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Even Better Large Curd Cottage Cheese&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fabulous Cola&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fast Dried Apples&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Golden Fajita French Fries&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Good Imported Beer&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Great Blueberry Muffins&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;High Top Golden Delcious Apples&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Imagine Chicken TV Dinner&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jumbo Small Brown Eggs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Landslide Canola Oil&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Moms Chicken Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nationeel Beef Jerky&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nationeel Low Fat Popcorn&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Radius Wheat Puffs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Super Apple Butter&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tell Tale Broccoli&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tell Tale Onions&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Token Apple Drink&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Washington Diet Cola&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;American Potato Salad&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BBB Best Grape Preserves&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Best Choice Fondue Mix&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Better Beef Soup&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Big Time Frozen Broccoli&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Blue Label Canned String Beans&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bravo Chicken Soup&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Carlson Sharp Cheddar Cheese&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Club Sharp Cheddar Cheese&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cutting Edge Sliced Chicken&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ebony Golden Delcious Apples&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ebony Shitake Mushrooms&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Even Better Mild Cheddar Cheese&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fabulous Diet Soda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Fast Fudge Cookies&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Golden Frozen Chicken Wings&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gorilla 1\% Milk&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Great Rye Bread&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;High Top Mandarin Oranges&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Imagine Frozen Mushroom Pizza&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Just Right Canned Tomatos&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Landslide Extra Chunky Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Moms Low Fat Bologna&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nationeel Chocolate Donuts&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nationeel Raisins&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Red Spade Foot-Long Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Super Creamy Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tell Tale Dried Mushrooms&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tell Tale Plums&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Token Diet Soda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Washington Strawberry Drink&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Atomic Tasty Candy Bar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BBB Best Vegetable Oil&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Best Choice Low Fat Cookies&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Better Chicken Noodle Soup&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Big Time Grape Popsicles&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Blue Label Rice Soup&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Carlson Blueberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Choice Tasty Candy Bar&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Colony Wheat Bread&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ebony Baby Onion&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ebony Mixed Nuts&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Even Better 2\% Milk&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Excellent Berry Juice&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fast Avocado Dip&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fast Strawberry Fruit Roll&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Golden Lime Popsicles&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Gorilla Low Fat Cottage Cheese&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;High Top Canned Peanuts&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;High Top Squash&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Imagine Low Fat French Fries&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Just Right Fancy Canned Clams&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Landslide Salt&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Monarch Ravioli&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Nationeel Fudge Cookies&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pearl Light Wine&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Shady Lake Manicotti&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Super Sesame Oil&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tell Tale Lemons&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tell Tale Walnuts&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Walrus Light Beer&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Atomic Mints&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BBB Best Strawberry Jelly&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Best Choice Graham Crackers&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Better Canned Tuna in Oil&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Big Time Frozen Pancakes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Blue Label Fancy Canned Oysters&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bravo Vegetable Soup&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Choice Mint Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Colony Blueberry Muffins&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Discover Spaghetti&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ebony Limes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ebony Tomatos&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Even Better Whole Milk&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fantastic Rye Bread&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Fast Low Fat Cookies&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Golden Frozen Sausage Pizza&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gorilla Havarti Cheese&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;High Top Baby Onion&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;High Top Party Nuts&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Imagine Home Style French Fries&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Just Right Chicken Ramen Soup&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Landslide Low Fat Apple Butter&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Moms Sliced Turkey&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nationeel Frosted Cookies&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pearl Chardonnay&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Red Spade Sliced Chicken&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Super Low Fat Apple Butter&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tell Tale Garlic&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tell Tale Sweet Onion&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Urban Small Eggs&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;American Roasted Chicken&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BBB Best Low Fat Apple Butter&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Best Choice Frosted Donuts&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Better Canned Beets&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Big Time Frozen Cauliflower&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Blue Label Canned Tomatos&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bravo Creamed Corn&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Carlson Sour Cream&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Club Sour Cream&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cutting Edge Sliced Ham&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ebony Green Pepper&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ebony Squash&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Even Better Muenster Cheese&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fabulous Mango Drink&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fast Golden Raisins&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Golden Frozen Corn&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gorilla 2\% Milk&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Great Wheat Bread&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;High Top Mixed Nuts&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Imagine Frozen Pancakes&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Just Right Canned Tuna in Oil&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Landslide French Roast Coffee&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Moms Potato Salad&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nationeel Corn Chips&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Nationeel Raspberry Fruit Roll&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Red Spade Low Fat Bologna&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Super Extra Chunky Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tell Tale Fancy Plums&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tell Tale Prepared Salad&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Token Orange Juice&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;BBB Best Chunky Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Best Choice Buttered Popcorn&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Best Choice Salted Pretzels&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Better Noodle Soup&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Big Time Low Fat French Fries&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bravo Canned Beets&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Carlson Large Curd Cottage Cheese&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Club Havarti Cheese&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Cutting Edge Foot-Long Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ebony Dried Mushrooms&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ebony Peaches&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Even Better Head Cheese&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Fabulous Apple Juice&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Fast Chocolate Donuts&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Golden Blueberry Waffles&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Good Chablis Wine&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Gorilla Whole Milk&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;High Top Fuji Apples&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Imagine Apple Cinnamon Waffles&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jeffers Grits&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Just Right Vegetable Soup&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Medalist Thai Rice&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nationeel Avocado Dip&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nationeel Low Fat Chips&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Radius Grits&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Special Oatmeal&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tell Tale Almonds&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tell Tale Mushrooms&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Thresher White Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Washington Cranberry Juice&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;American Chicken Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BBB Best Extra Chunky Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Best Choice Chocolate Donuts&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Best Grits&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Big Time Apple Cinnamon Waffles&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Big Time Popsicles&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bravo Canned Tuna in Oil&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Carlson Low Fat String Cheese&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Club Low Fat Cottage Cheese&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cutting Edge Pimento Loaf&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ebony Firm Tofu&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ebony Prepared Salad&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Even Better Low Fat Cottage Cheese&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fabulous Cranberry Juice&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fast Frosted Cookies&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Golden Frozen Broccoli&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Good Light Wine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Great English Muffins&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;High Top Lettuce&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Imagine Frozen Broccoli&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Jumbo Small Eggs&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Landslide Chunky Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Moms Cole Slaw&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nationeel Buttered Popcorn&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nationeel Mini Donuts&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Red Spade Beef Bologna&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Super Apple Jelly&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tell Tale Canned Peanuts&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tell Tale Oranges&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Token Apple Juice&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Washington Diet Soda&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BBB Best Apple Preserves&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Best Choice BBQ Potato Chips&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Best Choice Raisins&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Better Fancy Canned Sardines&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Big Time Lemon Popsicles&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Blue Medal Small Eggs&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Carlson Head Cheese&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Club Cheese Spread&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cutting Edge Cole Slaw&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ebony Cauliflower&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ebony Oranges&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Even Better Chocolate Milk&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Excellent Mango Drink&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Fast Cheese Crackers&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Golden Apple Cinnamon Waffles&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Golden Popsicles&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Gorilla Strawberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;High Top Firm Tofu&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;High Top Tomatos&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Imagine Popsicles&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Just Right Regular Ramen Soup&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Landslide Vegetable Oil&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;National Large Brown Eggs&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nationeel Lemon Cookies&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Quick Seasoned Hamburger&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Special Corn Puffs&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Swell Canned Mixed Fruit&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tell Tale Mandarin Oranges&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Thresher Spicy Mints&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Washington Berry Juice&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Applause Canned Mixed Fruit&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BBB Best Pepper&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Best Choice Fudge Brownies&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Better Canned Peas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Big Time Frozen Cheese Pizza&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Blue Label Creamed Corn&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bravo Fancy Canned Oysters&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Carlson Strawberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Club Strawberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cutting Edge Sliced Turkey&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ebony Honey Dew&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Ebony Sweet Onion&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Even Better Sharp Cheddar Cheese&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Fabulous Orange Juice&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Fast Graham Crackers&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Golden Frozen Pancakes&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gorilla Blueberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Great White Bread&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;High Top New Potatos&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Imagine Frozen Peas&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Just Right Canned Tuna in Water&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Landslide Grape Jam&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Moms Roasted Chicken&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nationeel Dried Apricots&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Nationeel Salsa Dip&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Red Spade Low Fat Cole Slaw&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Super French Roast Coffee&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tell Tale Firm Tofu&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tell Tale Red Delcious Apples&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Urban Large Brown Eggs&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BBB Best Apple Butter&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;BBB Best White Sugar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Best Choice Low Fat Popcorn&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Better Fancy Canned Anchovies&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Big Time Home Style French Fries&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Blue Label Turkey Noodle Soup&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Carlson Buttermilk&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Choice White Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Colony White Bread&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ebony Broccoli&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ebony Mushrooms&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Even Better Blueberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Excellent Cola&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fast BBQ Potato Chips&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Fast Sugar Cookies&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Golden Low Fat Waffles&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Gorilla Low Fat String Cheese&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;High Top Cauliflower&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;High Top Summer Squash&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Imagine Low Fat Waffles&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Just Right Fancy Canned Oysters&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Landslide Sesame Oil&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Monarch Rice Medly&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nationeel Golden Raisins&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pearl Merlot Wine&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Shady Lake Rice Medly&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Super Strawberry Preserves&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tell Tale Lettuce&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Thresher Mint Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Walrus White Zinfandel Wine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BBB Best Apple Jam&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Best Choice Apple Fruit Roll&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Best Choice No Salt Popcorn&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Better Fancy Canned Clams&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Big Time Ice Cream&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Blue Medal Large Eggs&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Carlson Cheese Spread&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Club Blueberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cutting Edge Beef Bologna&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ebony Canned Peanuts&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ebony New Potatos&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Even Better Buttermilk&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Excellent Cranberry Juice&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Fast Beef Jerky&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Footnote Extra Lean Hamburger&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Golden Orange Popsicles&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gorilla Mild Cheddar Cheese&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;High Top Corn on the Cob&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;High Top Sweet Onion&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Imagine Orange Popsicles&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Just Right Fancy Canned Sardines&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Landslide Strawberry Jam&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Monarch Spaghetti&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nationeel Graham Crackers&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Pearl White Zinfandel Wine&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Shady Lake Thai Rice&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Super Vegetable Oil&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tell Tale Limes&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Thresher Mints&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Washington Apple Drink&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;BBB Best Brown Sugar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Best Choice Beef Jerky&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Best Choice Salsa Dip&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Better Large Canned Shrimp&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Big Time Lime Popsicles&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bravo Beef Soup&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Carlson Jack Cheese&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Club Chocolate Milk&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cutting Edge Corned Beef&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ebony Corn on the Cob&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ebony Party Nuts&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Even Better Havarti Cheese&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Excellent Strawberry Drink&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Fast Cheese Dip&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Golden Beef TV Dinner&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Golden Waffles&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Gorilla String Cheese&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;High Top Fresh Lima Beans&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;High Top Walnuts&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Imagine Turkey TV Dinner&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Just Right Rice Soup&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Landslide White Sugar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nationeel Apple Fruit Roll&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nationeel Low Fat BBQ Chips&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Radius Corn Puffs&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Special Grits&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Swell Canned Peaches&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tell Tale Mixed Nuts&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Thresher Tasty Candy Bar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Washington Cola&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;BBB Best Creamy Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Best Choice Cheese Crackers&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Best Choice Sugar Cookies&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Better Rice Soup&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Big Time Orange Popsicles&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bravo Canned String Beans&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Carlson Low Fat Cottage Cheese&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Club Head Cheese&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cutting Edge Low Fat Bologna&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ebony Elephant Garlic&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ebony Plums&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Even Better Jack Cheese&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fabulous Berry Juice&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fast Corn Chips&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Golden Chicken TV Dinner&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Good Chardonnay Wine&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Great Bagels&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;High Top Garlic&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Imagine Beef TV Dinner&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Jeffers Wheat Puffs&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kiwi Scallops&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Moms Beef Bologna&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nationeel BBQ Potato Chips&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nationeel Low Fat Cookies&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Radius Oatmeal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Special Wheat Puffs&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tell Tale Beets&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tell Tale New Potatos&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tip Top Lox&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Washington Cream Soda&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Atomic Semi-Sweet Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BBB Best Strawberry Preserves&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Best Choice Low Fat BBQ Chips&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Better Canned Tuna in Water&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Big Time Frozen Peas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Blue Label Large Canned Shrimp&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Carlson 1\% Milk&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Choice Mints&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Colony Cranberry Muffins&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ebony Almonds&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ebony Macintosh Apples&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ebony Walnuts&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Excellent Apple Drink&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fantastic Wheat Bread&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fast Potato Chips&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Golden Grape Popsicles&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gorilla Head Cheese&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;High Top Beets&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;High Top Prepared Salad&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Imagine Ice Cream Sandwich&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Just Right Chicken Soup&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Landslide Oregano&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Moms Turkey Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nationeel Frosted Donuts&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pearl Chardonnay Wine&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Red Spade Sliced Turkey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Super Regular Coffee&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tell Tale Golden Delcious Apples&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tell Tale Sweet Peas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Walrus Chardonnay&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Atomic Bubble Gum&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;BBB Best Salt&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Best Choice Fudge Cookies&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Better Canned String Beans&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Big Time Frozen Chicken Thighs&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Blue Label Fancy Canned Anchovies&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bravo Large Canned Shrimp&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Carlson String Cheese&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Club String Cheese&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cutting Edge Turkey Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ebony Lemons&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ebony Sweet Peas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Even Better Strawberry Yogurt&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fabulous Strawberry Drink&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fast Lemon Cookies&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Golden Frozen Peas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gorilla Cheese Spread&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Green Ribbon Canned Peaches&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;High Top Onions&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Imagine Frozen Pepperoni Pizza&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Just Right Canned Yams&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Landslide Grape Jelly&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Moms Sliced Chicken&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nationeel Dried Dates&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nationeel Salted Pretzels&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Red Spade Pimento Loaf&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Super Grape Preserves&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tell Tale Fresh Lima Beans&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tell Tale Shitake Mushrooms&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Urban Large Eggs&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;American Corned Beef&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BBB Best Grape Jam&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Best Choice Corn Chips&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Best Oatmeal&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Big Time Beef TV Dinner&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Big Time Waffles&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bravo Canned Tuna in Water&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Carlson Mild Cheddar Cheese&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Club Low Fat String Cheese&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cutting Edge Potato Salad&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ebony Fresh Lima Beans&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ebony Red Delcious Apples&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Even Better Low Fat Sour Cream&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fabulous Cream Soda&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fast Frosted Donuts&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Golden Frozen Cheese Pizza&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Good Merlot Wine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Great Muffins&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;High Top Limes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Imagine Frozen Carrots&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Just Right Beef Soup&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Landslide Columbian Coffee&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Moms Corned Beef&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nationeel Cheese Dip&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nationeel No Salt Popcorn&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Red Spade Cole Slaw&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Super Canola Oil&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tell Tale Cantelope&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tell Tale Party Nuts&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Token Cola&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Washington Mango Drink&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;BBB Best Apple Jelly&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Best Choice Avocado Dip&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Best Choice Potato Chips&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Better Fancy Canned Oysters&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Big Time Ice Cream Sandwich&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Blue Medal Small Brown Eggs&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Carlson Havarti Cheese&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Club Buttermilk&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cutting Edge Chicken Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ebony Cantelope&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ebony Onions&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Even Better Cheese Spread&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Excellent Cream Soda&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Fast Buttered Popcorn&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Footnote Seasoned Hamburger&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Golden Pancake Mix&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gorilla Sour Cream&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;High Top Dried Mushrooms&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;High Top Sweet Peas&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Imagine Pancake Mix&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Just Right Large Canned Shrimp&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Landslide Strawberry Preserves&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Monarch Thai Rice&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nationeel Grape Fruit Roll&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Quick Extra Lean Hamburger&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ship Shape Extra Lean Hamburger&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Super White Sugar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tell Tale Macintosh Apples&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thresher Semi-Sweet Chocolate Bar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Washington Apple Juice&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Atomic Spicy Mints&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BBB Best Tomato Sauce&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Best Choice Low Fat Chips&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Better Canned Yams&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Big Time Frozen Sausage Pizza&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Blue Label Regular Ramen Soup&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Carlson 2\% Milk&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Choice Spicy Mints&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Colony English Muffins&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ebony Asparagus&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ebony Mandarin Oranges&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Even Better 1\% Milk&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Excellent Apple Juice&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fantastic White Bread&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Fast Salsa Dip&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Golden Home Style French Fries&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Gorilla Jack Cheese&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;High Top Broccoli&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;High Top Red Delcious Apples&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Imagine Lemon Popsicles&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Just Right Fancy Canned Anchovies&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Landslide Pepper&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monarch Manicotti&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Nationeel Fudge Brownies&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Pearl Light Beer&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Red Spade Turkey Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Super Salt&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tell Tale Green Pepper&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tell Tale Tangerines&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Walrus Imported Beer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;American Pimento Loaf&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BBB Best Grape Jelly&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Best Choice Dried Apricots&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Best Wheat Puffs&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Big Time Chicken TV Dinner&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Blue Label Canned Beets&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Bravo Canned Yams&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Carlson Muenster Cheese&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Club Muenster Cheese&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cutting Edge Roasted Chicken&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ebony Fuji Apples&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ebony Red Pepper&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Even Better Low Fat String Cheese&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Fabulous Diet Cola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Fast Fudge Brownies&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Golden Frozen Chicken Thighs&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Good White Zinfandel Wine&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Great Pumpernickel Bread&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;High Top Macintosh Apples&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Imagine Frozen Cheese Pizza&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Just Right Canned Peas&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Landslide Creamy Peanut Butter&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Moms Foot-Long Hot Dogs&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nationeel Chocolate Chip Cookies&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nationeel Potato Chips&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Red Spade Corned Beef&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Super Columbian Coffee&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tell Tale Corn on the Cob&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tell Tale Peaches&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Token Cream Soda&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Washington Orange Juice&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Data' id='Data_B8265454B494423FB644168A0D6E4445'>
+            <properties context=''>
+              <relation connection='excel-direct.0e0opcl1p1q1ol13mvh6d1nnoi44' name='Data' table='[Data$]' type='table'>
+                <columns gridOrigin='A1:P10001:no:A1:P10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Customer ID' ordinal='0' />
+                  <column datatype='string' name='Item Brand' ordinal='1' />
+                  <column datatype='string' name='Item' ordinal='2' />
+                  <column datatype='date' name='Delivery Date' ordinal='3' />
+                  <column datatype='date' name='Promised Delivery Date' ordinal='4' />
+                  <column datatype='real' name='List Price' ordinal='5' />
+                  <column datatype='real' name='Sales Price' ordinal='6' />
+                  <column datatype='real' name='Sales Amount' ordinal='7' />
+                  <column datatype='real' name='Sales Amount Based on List Price' ordinal='8' />
+                  <column datatype='real' name='Discount Amount' ordinal='9' />
+                  <column datatype='real' name='Sales Cost Amount' ordinal='10' />
+                  <column datatype='integer' name='Sales Quantity' ordinal='11' />
+                  <column datatype='integer' name='Sales Rep ID' ordinal='12' />
+                  <column datatype='string' name='City' ordinal='13' />
+                  <column datatype='string' name='State' ordinal='14' />
+                  <column datatype='string' name='Country' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_C68AA2D6652A46ECBBA5565A14534592]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Annualn Trends' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Item' />
+        <param name='target' value='Annualn Trends' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Annualn Trends'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#f28e2b' fontname='Adobe Caslon Pro Bold'>AMAZON ANNUAL SALES TREND BY MONTH- (TOP 10- ITEMS)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (AmazonDataV4)' name='federated.15lbl0y17ig17v11rflfp0jjcyvd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15lbl0y17ig17v11rflfp0jjcyvd'>
+            <column datatype='date' name='[Delivery Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Sales Price]' role='measure' type='quantitative' />
+            <column-instance column='[Sales Price]' derivation='Avg' name='[avg:Sales Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales Price]' derivation='Count' name='[cnt:Sales Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Item]' derivation='CountD' name='[ctd:Item:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Delivery Date]' derivation='Month' name='[mn:Delivery Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales Price]' derivation='Sum' name='[sum:Sales Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[mn:Delivery Date:ok]'>
+            <groupfilter function='level-members' level='[mn:Delivery Date:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Sales Price])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[sum:Sales Price:qk]' shelf='rows'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[mn:Delivery Date:ok]' member-value='1' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <slices>
+            <column>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]</column>
+            <column>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[mn:Delivery Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[mn:Delivery Date:ok]' value='iLLLL' />
+            <format attr='height' field='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' value='29' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[sum:Sales Price:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[avg:Sales Price:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+            <encoding attr='size-bar' field='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[cnt:Sales Price:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' />
+              <lod column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[ctd:Item:qk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[avg:Sales Price:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' />
+              <lod column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[ctd:Item:qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[cnt:Sales Price:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' />
+              <lod column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[ctd:Item:qk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[sum:Sales Price:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' />
+              <lod column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[ctd:Item:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]</rows>
+        <cols>([federated.15lbl0y17ig17v11rflfp0jjcyvd].[mn:Delivery Date:ok] * ([federated.15lbl0y17ig17v11rflfp0jjcyvd].[avg:Sales Price:qk] + ([federated.15lbl0y17ig17v11rflfp0jjcyvd].[cnt:Sales Price:qk] + [federated.15lbl0y17ig17v11rflfp0jjcyvd].[sum:Sales Price:qk])))</cols>
+      </table>
+      <simple-id uuid='{1B5DFAC9-A0C4-4FD8-A72C-F5BC7DE5ED53}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (AmazonDataV4)' name='federated.15lbl0y17ig17v11rflfp0jjcyvd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15lbl0y17ig17v11rflfp0jjcyvd'>
+            <column datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Sales Price]' role='measure' type='quantitative' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales Price]' derivation='Sum' name='[sum:Sales Price:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]'>
+            <groupfilter count='15' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Sales Price])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[sum:Sales Price:qk]</rows>
+        <cols>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]</cols>
+      </table>
+      <simple-id uuid='{DF9664F8-C698-44A3-B683-E743E9A7840E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Annualn Trends'>
+      <cards>
+        <edge name='left'>
+          <strip size='183'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card param='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[mn:Delivery Date:ok]' type='filter' />
+            <card pane-specification-id='1' param='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[:Measure Names]</field>
+            <field>[federated.15lbl0y17ig17v11rflfp0jjcyvd].[yr:Delivery Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C748AE07-1967-41C3-B138-BA6CBF18266D}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.15lbl0y17ig17v11rflfp0jjcyvd].[none:Item:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7ED5E838-EE56-4AAB-910B-FE3A1A219C50}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Annualn Trends' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
