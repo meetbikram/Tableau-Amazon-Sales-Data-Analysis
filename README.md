@@ -3,7 +3,7 @@
 ★ Blended and visualized data using Tableau Prep Builder and Tableau Desktop to reveal core patterns in the data;
 ★ Created HLD, LLD, Architecture Design Document and Project Detailed Report
 
-STORY
+### STORY
 ![Story](https://user-images.githubusercontent.com/41924501/205491973-51bcc5d6-16d9-4517-b4c5-5014140bfe30.png)
 
 ### Dashboards
