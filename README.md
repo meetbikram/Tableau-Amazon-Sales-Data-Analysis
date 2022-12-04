@@ -3,6 +3,9 @@
 ★ Blended and visualized data using Tableau Prep Builder and Tableau Desktop to reveal core patterns in the data;
 ★ Created HLD, LLD, Architecture Design Document and Project Detailed Report
 
+#### Tableau Public
+https://public.tableau.com/app/profile/bikram.roy5402/viz/AmazonSalesAnalysis_16462445308300/Story
+
 ### STORY
 ![Story](https://user-images.githubusercontent.com/41924501/205491973-51bcc5d6-16d9-4517-b4c5-5014140bfe30.png)
 
